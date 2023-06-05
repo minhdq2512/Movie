@@ -1,0 +1,219 @@
+.brand-logo{
+  margin-left: 40px;
+}
+
+.container {
+  /* display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: space-evenly; */
+
+  display: flex;
+  width: 200px;
+  gap:10px;
+  justify-content: space-between;
+  flex-flow: row wrap;
+
+}
+
+/* .container{
+  margin-left: 320px !important;
+} */
+
+.column{
+ margin: 30px;
+ text-align: center;
+}
+
+
+
+.container h3{
+  text-align: center;
+}
+
+.foot{
+width: 100%;
+background-color: rgb(9, 38, 6);
+color: white;
+text-align: center;
+height: 50px;
+margin-bottom: auto;
+font-size: large;
+left: 0;
+bottom: 0;
+margin-top: auto;
+}
+
+.container img{
+  height: 500px;
+  width: 500px;
+  object-fit:contain;
+  margin: 20px;
+}
+.product-card img{
+  width: 700px;
+
+}
+
+.product-card{
+  font-size: large;
+  text-align: center;
+}
+
+.menu{
+  width: auto;
+}
+
+.home-icon-logo{
+  display: flex !important;
+  flex-direction: row;
+  justify-content: center !important;
+  align-items: center !important;
+  
+/* background-color: black !important; */
+}
+
+.home-icon-logo-2{
+  display: flex !important;
+  flex-direction: row;
+  justify-content: center !important;
+  align-items: center !important;
+/* background-color: black !important; */
+}
+
+.contact-form--select select {
+  display: inline-block;
+}
+
+.menu{
+  background-color: rgb(39, 35, 35) !important;
+}
+
+.container
+{
+  background-color: rgb(240,229,219);
+  height:auto !important;
+  max-width: none !important;
+  width: auto !important;
+}
+
+.card-content{
+  width: 800px;
+  margin: 0 auto;
+  height: 1050px;
+  padding:0 !important;
+  background-color: rgb(255, 255, 255);
+
+  
+}
+
+.product-card{
+  margin-top:60px;
+  margin-bottom: 40px;
+
+}
+
+/* .container-2{
+  background-color: rgb(240,229,219);
+  height: auto;
+  max-width: none;
+  width:auto;
+
+} */
+
+.app-container{
+  background-color: rgb(240,229,219);
+}
+
+.badge{
+  font-size: 60px;
+}
+
+.product-info{
+  background-color: rgb(102, 151, 151);
+padding: 0 !important;
+
+
+}
+
+.title{
+  font-size: 20px;
+}
+
+.contact-form{
+  max-width: none;
+  height: 1020px;
+  background-color: white;
+  padding: 100px;
+  margin: 20px;
+}
+
+.contact-form label{
+  font-size: 30px;
+  color: black;
+}
+/* .contact-container{
+  background-color: rgb(240,229,219);
+} */
+
+.about {
+  height: 1050px;
+}
+
+.collapsible{
+  font-size: 40px;
+}
+
+.collapsible-header{
+  display: flex !important;
+  flex-direction: row;
+  /* justify-content: center !important; */
+  align-items: center !important;
+
+}
+
+.collapsible-body{
+  background-color: whitesmoke;
+  font-size: 30px;
+}
+
+.modal-show {
+  background-color: rgba(0, 0, 0, 0.2);
+  width: 100vw;
+  height: 120vmax;
+  z-index: 99;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+
+}
+
+.modal {
+  position: absolute;
+  top: 40%;
+}
+
+.modal-close {
+  margin-right: 20px;
+  color: red;
+}
+
+.modal-close:hover {
+  color: #919d2b;
+}
+
+/* .play-button {
+  position: absolute;
+  top: 60%;
+  left: 26.5%;
+  transform: translate(-50%, -50%);
+} */
+
+.modal-content{
+  width: auto;
+}
+
+.card{
+  box-shadow: none !important;
+  border-radius: 12px !important;
+}

@@ -1,0 +1,62 @@
+.brand-logo{
+  margin-left: 40px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: space-evenly;
+
+}
+
+.container{
+  margin-left: 320px !important;
+}
+
+.column{
+ margin: 30px;
+ text-align: center;
+}
+
+.container img{
+  width: 500px;
+}
+
+.container h3{
+  text-align: center;
+}
+
+.foot{
+width: 100%;
+background-color: rgb(9, 38, 6);
+color: white;
+text-align: center;
+height: 50px;
+margin-bottom: auto;
+font-size: large;
+left: 0;
+bottom: 0;
+}
+
+.product-card img{
+  width: 700px;
+
+}
+
+.product-card{
+  font-size: large;
+  text-align: center;
+}
+
+.menu{
+  width: auto;
+}
+
+.home-icon-logo{
+  display: flex !important;
+  flex-direction: row;
+  justify-content: center !important;
+  align-items: center !important;
+  
+/* background-color: black !important; */
+}
