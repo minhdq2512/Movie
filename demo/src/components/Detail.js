@@ -28,9 +28,9 @@ function Detail() {
           <p className="product-info">Infomation: {flim.info}</p>
           <div className="product-bottom-details"></div>
           <div className="play-button">
-          <a onClick={() => setIsOpen(true)}>
+          <button onClick={() => setIsOpen(true)}>
                 <MouseIcon color="primary" sx={{ fontSize: "100px" }} />
-            </a>
+            </button>
             {isOpen && <ModalCase setIsOpen={setIsOpen} flim={flim} />}
           </div>
         </div>
